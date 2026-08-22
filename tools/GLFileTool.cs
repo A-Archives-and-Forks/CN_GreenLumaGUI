@@ -615,11 +615,9 @@ namespace CN_GreenLumaGUI.tools
 				string appIniRemap = "";
 				foreach (var entry in mapping)
 					appIniRemap += $"\n{entry.PoolAppId} = {entry.AppId}";
-				long pos = mapping.Count;
 				// 生成游戏id列表单文件
 				var iniHeadStr = $"""
                     [AppList]
-                    NumAppIDs = {pos}
                     """;
 				File.WriteAllText(DLLInjectorAppListIni, iniHeadStr + appIniRemap);
 				//OutAPI.AddSecurityControll2File(DLLInjectorAppListIni);

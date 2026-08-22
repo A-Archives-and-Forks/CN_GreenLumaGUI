@@ -328,7 +328,7 @@ GreeLuma 原工具论坛地址 : https://cs.rin.ru/forum/viewtopic.php?f=10&t=10
 
 DLLInjector.exe
 
-GreenLuma_2026_x64.dll (版本GreenLuma_2026_1.8.1)
+GreenLuma_2026_x64.dll (版本GreenLuma_2026_1.8.7)
 
 ## 如何手动替换工具的内置文件
 
